@@ -1,0 +1,36 @@
+
+
+@import "../sass/setting/mixin";
+@import "../sass/setting/variable";
+
+@import"../sass/base/base";
+
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900");
+@import url("https://fonts.googleapis.com/css?family=Ubuntu:400,500,700");
+
+
+// Layout
+@import '../sass/layout/preloader';
+@import '../sass/layout/nav';
+@import '../sass/layout/header';
+@import '../sass/layout/banner';
+@import '../sass/layout/feature';
+@import '../sass/layout/welcome';
+@import '../sass/layout/department';
+@import '../sass/layout/patient';
+@import '../sass/layout/specialist';
+@import '../sass/layout/hotline';
+@import '../sass/layout/news';
+@import '../sass/layout/footer';
+@import '../sass/layout/departments-page';
+@import '../sass/layout/about';
+@import '../sass/layout/blog-home';
+@import '../sass/layout/blog-details';
+@import '../sass/layout/contact';
+@import '../sass/layout/elements';
+
+// Module
+@import '../sass/module/btn';
+@import '../sass/module/form';
+@import '../sass/module/other';
+
