@@ -1,40 +1,41 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900");
 @import url("https://fonts.googleapis.com/css?family=Ubuntu:400,500,700");
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Muli:300,400,600,700,900&display=swap');
 body {
   color: #777;
-  font-family: "Playfair Display", Roboto, sans-serif;
+  font-family: "Muli", Roboto, sans-serif;
   font-size: 15px;
   font-weight: 400;
 }
 h1 {
   color: #222;
-  font-family: "Playfair Display", Roboto, sans-serif;
+  font-family: "Muli", Roboto, sans-serif;
   font-size: 45px !important;
   font-weight: 700;
 }
 h2 {
   color: #222;
-  font-family: "Playfair Display", Roboto, sans-serif;
+  font-family: "Muli", Roboto, sans-serif;
   font-size: 36px !important;
   font-weight: 700;
 }
 h3 {
   color: #222;
-  font-family: "Playfair Display", Roboto, sans-serif;
+  font-family: "Muli", Roboto, sans-serif;
   font-size: 18px !important;
   font-weight: 700;
   text-transform: uppercase;
 }
 h4 {
   color: #222;
-  font-family: "Playfair Display", Roboto, sans-serif;
+  font-family: "Muli", Roboto, sans-serif;
   font-size: 16px !important;
   font-weight: 400;
 }
 h5 {
   color: #777;
-  font-family: "Playfair Display", Roboto, sans-serif;
+  font-family: "Muli", Roboto, sans-serif;
   text-transform: capitalize;
   font-size: 14px !important;
   font-weight: 400;
@@ -42,7 +43,7 @@ h5 {
 h6 {
   color: #777;
   font-size: 12px !important;
-  font-family: "Playfair Display", Roboto, sans-serif;
+  font-family: "Muli", Roboto, sans-serif;
   text-transform: uppercase;
   font-weight: 500;
 }
@@ -610,6 +611,7 @@ hr {
 .department-slider.owl-carousel .owl-dots .owl-dot.active {
   background: #244cfd;
 }
+/* Appointment Section */
 .patient-area .single-patient {
   background: #f9f9fd;
   padding: 40px 80px 20px 40px;
@@ -618,6 +620,9 @@ hr {
   -o-transition: 0.5s;
   transition: 0.5s;
   margin-top: 90px;
+  -webkit-box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
 }
 .patient-area .single-patient:hover {
   background: #fff;
@@ -638,7 +643,6 @@ hr {
 }
 .patient-area .appointment-form {
   padding: 80px;
-  background-image: url("../images/patient.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -692,8 +696,7 @@ hr {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: linear-gradient(to top right, rgba(21, 228, 253, 0.9), rgba(36, 76, 253, 0.9));
-  z-index: -1;
+  background-image: linear-gradient(to right,#fed267 0%,#cf9b48 100%);  z-index: -1;
 }
 .patient-area .appointment-form h3 {
   font-size: 24px !important;
@@ -2748,7 +2751,7 @@ h6 {
 /* Button */
 .template-btn {
   color: #fff;
-  background: linear-gradient(to right, #244cfd, #15e4fd);
+  border: 1px solid #fed267 ;
   font-family: "Roboto", sans-serif;
   text-transform: uppercase;
   font-size: 12px;
