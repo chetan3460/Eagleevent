@@ -422,8 +422,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   position: relative;
   background-position: top;
   background-position: center center;
-  min-height: 600px;
-  height: calc(100vh);
+
 }
 .mt-15{
   margin-top: -5em;
@@ -562,11 +561,11 @@ hr {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(1, 2, 14, 0.4);
-  -webkit-transition: 0.5s;
-  -moz-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s;
+  background: rgba(254,210,103,.7);
+   -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
   opacity: 0;
   visibility: hidden;
@@ -598,7 +597,7 @@ hr {
   transform: translate(-50%, 0);
 }
 .department-slider.owl-carousel .owl-dots .owl-dot {
-  width: 15px;
+  width: 20px;
   height: 4px;
   background: #c6d0d4;
   -webkit-border-radius: 5px;
@@ -609,7 +608,7 @@ hr {
   margin: 0 7px;
 }
 .department-slider.owl-carousel .owl-dots .owl-dot.active {
-  background: #244cfd;
+  background: #cf9b48;
 }
 /* Appointment Section */
 .patient-area .single-patient {
@@ -911,6 +910,7 @@ hr {
   background: #fff;
   height: 40px;
   width: 40px;
+  border-radius: 50%;
   text-align: center;
   line-height: 20px;
   -webkit-transition: all 0.3s ease-in-out;
@@ -920,7 +920,7 @@ hr {
 }
 .footer-copyright ul li i:hover {
   color: #fff;
-  background: linear-gradient(to right, #244cfd, #15e4fd);
+  background: linear-gradient(to right,#fed267 0%,#cf9b48 100%);
 }
 .banner-area.other-page {
   padding: 220px 0 170px;
@@ -2751,11 +2751,11 @@ h6 {
 /* Button */
 .template-btn {
   color: #fff;
-  border: 1px solid #fed267 ;
+  background: linear-gradient(to right,#fed267 0%,#cf9b48 100%);
   font-family: "Roboto", sans-serif;
   text-transform: uppercase;
-  font-size: 12px;
-  font-weight: 400;
+  font-size: 14px;
+  font-weight: 700;
   display: inline-block;
   padding: 12px 30px !important;
   -webkit-transition: all 0.2s ease-in-out;
