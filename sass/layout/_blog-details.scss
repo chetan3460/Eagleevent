@@ -116,7 +116,7 @@
         font-size: 12px;
         display: block;
         font-weight:600;
-        @include transition(.3s);
+        transition:.3s;
         &:hover {
             background: $gradient;
             color: $light!important;

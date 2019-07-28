@@ -1,13 +1,30 @@
 /* 6. Feature */
 .single-feature {
     background: $dark;
-    @include border-radius(5px);
-    @include transition(.5s);
-    img {
+    border-radius:6px;
+    transition:.5s;
+    -webkit-border-radius:6px;
+    -moz-border-radius:6px;
+    -ms-border-radius:6px;
+    -o-border-radius:6px;
+    -webkit-transition:.5s;
+    -moz-transition:.5s;
+    -ms-transition:.5s;
+    -o-transition:.5s;
+    img{
         margin-bottom: 40px;
     }
     &:hover {
         background: $light;
-        @include box-shadow(0 5px 20px $shadow);
+        box-shadow:0 5px 20px $shadow;
     }
+}
+.divider {
+    width: 50px;
+    height: 3px;
+    padding: 0;
+    margin: 5px auto;
+    background-image: linear-gradient(to right,#fed267 20%,#cf9b48 80%);
+    background-repeat: repeat-x;
+    border: none;
 }

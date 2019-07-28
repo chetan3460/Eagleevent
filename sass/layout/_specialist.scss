@@ -4,7 +4,7 @@
     .single-doctor {
         &:hover {
             .content-area {
-                @include box-shadow(0 5px 20px $shadow);
+                box-shadow:0 5px 20px $shadow;
             }
             .doctor-name {
                 background: $gradient;
@@ -24,13 +24,13 @@
         }
     }
     .content-area {
-        @include box-shadow(0 0 5px $shadow);
-        @include transition(.5s);
+        box-shadow:0 0 5px $shadow;
+        transition:.5s;
     }
     .doctor-name {
         padding: 20px;
         background: $dark;
-        @include transition(.5s);
+        transition:.5s;
         // h3,
         // h6 {
         //     @include transition(.5s);
@@ -46,8 +46,9 @@
             margin: 0 7px;
             a {
                 color: $body-text;
-                @include transition(.3s);
-                &:hover {
+                transition:.3s;
+                &:hover
+                {
                     color: $primary-color;
                 }
             }

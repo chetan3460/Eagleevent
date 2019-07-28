@@ -1,16 +1,13 @@
-
-
-@import "../sass/setting/mixin";
-@import "../sass/setting/variable";
-
-@import"../sass/base/base";
-
 @import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900");
 @import url("https://fonts.googleapis.com/css?family=Ubuntu:400,500,700");
 
 
+// Setting
+@import "../sass/setting/variable";
+@import "../sass/setting/mixin";
+// Base
+@import '../sass/base/base';
 // Layout
-@import '../sass/layout/preloader';
 @import '../sass/layout/nav';
 @import '../sass/layout/header';
 @import '../sass/layout/banner';
@@ -28,9 +25,9 @@
 @import '../sass/layout/blog-details';
 @import '../sass/layout/contact';
 @import '../sass/layout/elements';
-
 // Module
 @import '../sass/module/btn';
 @import '../sass/module/form';
 @import '../sass/module/other';
+
 

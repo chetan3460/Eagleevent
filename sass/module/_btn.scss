@@ -8,10 +8,10 @@
     font-weight: 400;
     display: inline-block;
     padding: 12px 30px!important;
-    @include transition(all .2s ease-in-out);
+    transition:all .2s ease-in-out;
     &:hover {
         color: $light;
-        @include opacity(.8);
+        opacity:0.8;
     }
 }
 .news-btn {
@@ -20,7 +20,7 @@
     font-size: 12px;
     font-weight: 500;
     position: relative;
-    @include transition(all .5s ease-in-out);
+    transition:all .5s ease-in-out;
     &:hover {
         color: $primary-color;
         i {
@@ -31,6 +31,6 @@
         position: absolute;
         right: -17px;
         top: 1px;
-        @include transition(all .2s ease-in-out);
+        transition:all .2s ease-in-out;
     }
 }
