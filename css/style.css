@@ -356,6 +356,12 @@ body.mobile-nav-active #mobile-nav-toggle {
   @media (max-width: 575.98px) {
     .banner-area {
       padding: 200px 0; } }
+  .banner-area a {
+    color: #ffffff !important; }
+  .banner-area .about-content .lnr {
+    margin: 0px 10px;
+    font-weight: 600;
+    color: #ffffff !important; }
 
 /* 6. Feature */
 .single-feature {
@@ -409,6 +415,29 @@ body.mobile-nav-active #mobile-nav-toggle {
   @media (max-width: 575.98px) {
     .welcome-text {
       padding: 40px 20px; } }
+
+.list-marked li {
+  position: relative;
+  padding-left: 30px;
+  line-height: 1.82em !important; }
+  .list-marked li:before {
+    content: "";
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    background: #fff;
+    top: 4px;
+    left: 0;
+    color: #fed267; }
+  .list-marked li i {
+    margin-right: 15px; }
+  .list-marked li a {
+    color: #777777; }
+
+.linear-icon :before {
+  background-image: linear-gradient(to right, #fed267 0%, #cf9b48 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; }
 
 /* 8. Department */
 .department-area {
@@ -532,7 +561,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: linear-gradient(to top right, rgba(21, 228, 253, 0.9), rgba(36, 76, 253, 0.9));
+    background-image: linear-gradient(to top right, rgba(254, 210, 103, 0.9), rgba(207, 155, 72, 0.9));
     z-index: -1; }
   .patient-area .appointment-form h3 {
     font-size: 24px !important;
@@ -2393,8 +2422,8 @@ h6 {
   background: linear-gradient(to right, #fed267 20%, #cf9b48 80%);
   font-family: "Roboto", sans-serif;
   text-transform: uppercase;
-  font-size: 12px;
-  font-weight: 400;
+  font-size: 14px;
+  font-weight: 700;
   display: inline-block;
   padding: 12px 30px !important;
   transition: all .2s ease-in-out; }

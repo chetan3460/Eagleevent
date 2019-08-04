@@ -25,3 +25,35 @@
         padding: 40px 20px;
     }
 }
+
+
+.list-marked {
+	li {
+		position: relative;
+		padding-left: 30px;
+		line-height: 1.82em !important;
+		&:before {
+			content: "";
+			position: absolute;
+			width: 14px;
+			height: 14px;
+			background: #fff;
+			top: 4px;
+			left: 0;
+			color: #fed267;
+		}
+		i {
+			margin-right: 15px;
+        }
+        a{
+            color: $body-text;
+        }
+	}
+}
+.linear-icon {
+	:before {
+		background-image: linear-gradient(to right,#fed267 0%,#cf9b48 100%);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+	}
+}

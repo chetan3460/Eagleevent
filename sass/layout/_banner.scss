@@ -16,4 +16,16 @@
     @include portrait-phone(){
         padding: 200px 0;
     }
+    a {
+        color: $light!important;
+    }
+    .about-content{
+        .lnr{
+            margin: 0px 10px;
+            font-weight: 600;
+            color: $light!important;
+
+        }
+    }
+
 }
