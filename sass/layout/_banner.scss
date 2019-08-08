@@ -1,6 +1,6 @@
 /* 5. Banner */
 .banner-area {
-    padding: 400px 0 350px;
+    padding: 350px 0 350px;
     background-color: $placeholder;
     background-image: url('../images/banner-bg.jpg');
     background-repeat: no-repeat;
@@ -19,6 +19,11 @@
     a {
         color: $light!important;
     }
+	span {
+		&.h-light {
+			color: #fed267;
+		}
+	}
     .about-content{
         .lnr{
             margin: 0px 10px;
