@@ -104,6 +104,55 @@
 .mt--160 {
     margin-top: -160px;
 }
+/* Start Blog Area css
+============================================================================================ */
 
+.home-blog-area {
+	padding-bottom: 90px;
+	@media (max-width: 1199px) {
+		padding-bottom: 50px;
+	}
+}
 
-
+.single-blog {
+	border: 1px solid #eeeeee;
+	padding: 20px;
+	margin-bottom: 30px;
+	@include transition();
+	.blog-thumb {
+		position: relative;
+		overflow: hidden;
+	}
+	.blog-details {
+		padding: 25px 0px;
+		p {
+			margin-bottom: 0;
+		}
+		.blog-meta {
+			p {
+				font-size: 13px;
+				margin-right: 20px;
+				a {
+					color: #222;
+				}
+			}
+			span {
+				padding-right: 5px;
+			}
+		}
+		h5 {
+			margin: 15px 0px;
+			a {
+				color: #222;
+				font-size: 21px;
+				@include transition();
+				&:hover {
+					color: $primary-color;
+				}
+			}
+		}
+	}
+	&:hover {
+		box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+	}
+}

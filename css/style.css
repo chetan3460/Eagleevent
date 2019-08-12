@@ -468,6 +468,50 @@ body.mobile-nav-active #mobile-nav-toggle {
 .mt--160 {
   margin-top: -160px; }
 
+/* Start Blog Area css
+============================================================================================ */
+.home-blog-area {
+  padding-bottom: 90px; }
+  @media (max-width: 1199px) {
+    .home-blog-area {
+      padding-bottom: 50px; } }
+
+.single-blog {
+  border: 1px solid #eeeeee;
+  padding: 20px;
+  margin-bottom: 30px;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s; }
+  .single-blog .blog-thumb {
+    position: relative;
+    overflow: hidden; }
+  .single-blog .blog-details {
+    padding: 25px 0px; }
+    .single-blog .blog-details p {
+      margin-bottom: 0; }
+    .single-blog .blog-details .blog-meta p {
+      font-size: 13px;
+      margin-right: 20px; }
+      .single-blog .blog-details .blog-meta p a {
+        color: #222; }
+    .single-blog .blog-details .blog-meta span {
+      padding-right: 5px; }
+    .single-blog .blog-details h5 {
+      margin: 15px 0px; }
+      .single-blog .blog-details h5 a {
+        color: #222;
+        font-size: 21px;
+        -webkit-transition: all 0.3s ease 0s;
+        -moz-transition: all 0.3s ease 0s;
+        -o-transition: all 0.3s ease 0s;
+        transition: all 0.3s ease 0s; }
+        .single-blog .blog-details h5 a:hover {
+          color: #fed267; }
+  .single-blog:hover {
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); }
+
 /* 7. Welcome */
 .welcome-img img {
   width: 120%;
