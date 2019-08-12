@@ -2,6 +2,9 @@
 .footer-area {
     color: $light;
     background: $footer;
+    .form-control{
+		background-color: transparent;
+	}
     h3 {
         color: $light;
     }
@@ -13,20 +16,48 @@
             color: $primary-color;
         }
     }
+    // input {
+    //     display: inline-block;
+    //     margin: auto;
+    //     width: 250px;
+    //     border: none;
+    //     border-radius:3px;
+    //     padding: 10px 20px;
+    //     @include landscape-phone() {
+    //         width: 250px;
+    //     }
+    //     @include portrait-phone() {
+    //         width: 100%;
+    //     }
+    // }
     input {
-        display: inline-block;
-        margin: auto;
-        width: 250px;
+        height: 40px;
         border: none;
-        border-radius:3px;
-        padding: 10px 20px;
-        @include landscape-phone() {
-            width: 250px;
-        }
-        @include portrait-phone() {
-            width: 100%;
+        width: 67% !important;
+        font-weight: 400;
+        padding-left: 20px;
+        border-radius: 0;
+        font-size: 13px;
+        color: #999999;
+        border: 0px solid transparent;
+        font-family: $body-font;
+        &:focus {
+            outline: none;
+            box-shadow: none;
         }
     }
+    .input-group{
+		border: 1px solid #45556a;
+		padding: 5px;
+    }
+    
+    .btn{
+		background-color: #fed267;
+		color: #fff;
+		width: 49px;
+		border-radius: 0px;
+		height: 40px;
+	}
     .template-btn {
         margin-left: 10px;
         border: none;
@@ -35,6 +66,7 @@
             margin-top: 30px;
         }
     }
+    
     img {
         width: 55px;
         height: 55px;
@@ -46,6 +78,7 @@
             margin-right: 15px;   
         }
     }
+
 }
 .footer-copyright {
     margin-top: 70px;
