@@ -502,7 +502,9 @@ body.mobile-nav-active #mobile-nav-toggle {
       margin: 15px 0px; }
       .single-blog .blog-details h5 a {
         color: #222;
-        font-size: 21px;
+        font-size: 18px;
+        font-weight: 700;
+        text-transform: uppercase;
         -webkit-transition: all 0.3s ease 0s;
         -moz-transition: all 0.3s ease 0s;
         -o-transition: all 0.3s ease 0s;

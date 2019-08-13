@@ -144,7 +144,9 @@
 			margin: 15px 0px;
 			a {
 				color: #222;
-				font-size: 21px;
+                font-size: 18px;
+                font-weight: 700;
+                text-transform: uppercase;
 				@include transition();
 				&:hover {
 					color: $primary-color;
