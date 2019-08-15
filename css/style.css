@@ -892,6 +892,9 @@ body.mobile-nav-active #mobile-nav-toggle {
       @media (min-width: 768px) and (max-width: 991.98px) {
         .isotope_fillter .gallery_filter li {
           margin-right: 15px; } }
+      @media (min-width: 576px) and (max-width: 767.98px) {
+        .isotope_fillter .gallery_filter li {
+          margin-right: 15px; } }
       .isotope_fillter .gallery_filter li a {
         font-size: 13px;
         font-family: "Roboto", sans-serif;
@@ -920,9 +923,7 @@ body.mobile-nav-active #mobile-nav-toggle {
       height: 100%;
       left: 0px;
       top: 0px;
-      background-image: -moz-linear-gradient(90deg, #e187f0 0%, #f27fd3 33%, #a276ff 67%, #8889ff 100%);
-      background-image: -webkit-linear-gradient(90deg, #e187f0 0%, #f27fd3 33%, #a276ff 67%, #8889ff 100%);
-      background-image: -ms-linear-gradient(90deg, #e187f0 0%, #f27fd3 33%, #a276ff 67%, #8889ff 100%);
+      background-image: linear-gradient(to right, #fed267 20%, #cf9b48 80%);
       position: absolute;
       opacity: 0;
       transition: all 300ms ease; }
