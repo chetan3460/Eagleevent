@@ -1607,10 +1607,27 @@ body.mobile-nav-active #mobile-nav-toggle {
     color: #777; }
 
 /* 18. Contact */
-#mapBox {
+.contact-section .contact-info p span {
+  color: #222222; }
+.contact-section .contact-info a {
+  color: #777777; }
+.contact-section .contact-form .template-btn {
+  border: none; }
+.contact-section #map {
+  height: 400px;
+  width: 100%; }
+  @media (max-width: 575.98px) {
+    .contact-section #map #map {
+      height: 400px; } }
+
+.ftco-section {
+  position: relative;
   width: 100%;
-  height: 420px;
-  overflow: hidden; }
+  display: block; }
+
+.ftco-section {
+  padding: 8em 0;
+  position: relative; }
 
 .info-text h3 {
   text-transform: inherit; }
@@ -2868,24 +2885,8 @@ h6 {
   transition: all .2s ease-in-out; }
   .template-btn:hover {
     color: #ffffff;
-    opacity: 0.8; }
-
-.news-btn {
-  color: #222222;
-  text-transform: uppercase;
-  font-size: 12px;
-  font-weight: 500;
-  position: relative;
-  transition: all .5s ease-in-out; }
-  .news-btn:hover {
-    color: #fed267; }
-    .news-btn:hover i {
-      right: -20px; }
-  .news-btn i {
-    position: absolute;
-    right: -17px;
-    top: 1px;
-    transition: all .2s ease-in-out; }
+    background-color: #000;
+    border-color: #fed267; }
 
 /* 16. Form */
 .appointment-form input,

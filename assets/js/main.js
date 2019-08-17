@@ -222,4 +222,7 @@
         // Preloader
         $('.preloader').fadeOut(500);
     });
+
+
+    
 })(jQuery);
