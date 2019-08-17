@@ -317,7 +317,8 @@ body.mobile-nav-active #mobile-nav-toggle {
       top: 0; } }
 
 #header.header-scrolled {
-  background: #f9f9fd;
+  box-shadow: -21.213px 21.213px 30px 0px rgba(158, 158, 158, 0.3);
+  background: rgba(255, 255, 255, 0.9);
   transition: all 0.5s;
   top: 0; }
 
@@ -373,6 +374,14 @@ body.mobile-nav-active #mobile-nav-toggle {
     margin: 0px 10px;
     font-weight: 600;
     color: #ffffff !important; }
+  .banner-area .overlay {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0; }
+  .banner-area .overlay-bg {
+    opacity: .9; }
 
 /* 6. Feature */
 .single-feature {
@@ -692,7 +701,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 /* 10. Specialist */
 .specialist-area {
-  background: #f9f9fd; }
+  background: #ffff; }
   .specialist-area .single-doctor:hover .content-area {
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1); }
   .specialist-area .single-doctor:hover .doctor-name {
@@ -711,7 +720,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     transition: .5s; }
   .specialist-area .doctor-name {
     padding: 20px;
-    background: #f9f9fd;
+    background: #ffff;
     transition: .5s; }
   .specialist-area .doctor-text {
     background: #ffffff;
@@ -1273,14 +1282,14 @@ body.mobile-nav-active #mobile-nav-toggle {
   .blog_details .template-btn {
     color: #222222 !important;
     padding: 10px 24px !important;
-    background: #f9f9fd; }
+    background: #ffff; }
     .blog_details .template-btn:hover {
       color: #ffffff !important;
       background: linear-gradient(to right, #fed267 20%, #cf9b48 80%); }
 
 .blog_right_sidebar {
   border: 1px solid #f9f9f9;
-  background: #f9f9fd;
+  background: #ffff;
   padding: 30px; }
   .blog_right_sidebar .widget_title {
     font-size: 18px;
