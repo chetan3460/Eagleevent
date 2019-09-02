@@ -1,5 +1,19 @@
 /* 16. Blog Home */
+.service-area{
+    background: $box-color;
+    .single-service{
+        background: #fff;
+        border: 1px solid #eeeeee;
+        padding: 20px;
+        margin-bottom: 30px;
+        -webkit-transition: all 0.3s ease 0s;
+        -moz-transition: all 0.3s ease 0s;
+        -o-transition: all 0.3s ease 0s;
+        transition: all 0.3s ease 0s;
+    }
 
+
+}
 
 .blog_categorie_area{
     padding-top: 80px;

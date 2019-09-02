@@ -368,6 +368,8 @@ body.mobile-nav-active #mobile-nav-toggle {
       padding: 200px 0; } }
   .banner-area a {
     color: #ffffff !important; }
+  .banner-area .title-color {
+    color: #fff; }
   .banner-area span.h-light {
     color: #fed267; }
   .banner-area .about-content .lnr {
@@ -1189,6 +1191,18 @@ body.mobile-nav-active #mobile-nav-toggle {
       top: 80%; } }
 
 /* 16. Blog Home */
+.service-area {
+  background: #f9f9fd; }
+  .service-area .single-service {
+    background: #fff;
+    border: 1px solid #eeeeee;
+    padding: 20px;
+    margin-bottom: 30px;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s; }
+
 .blog_categorie_area {
   padding-top: 80px;
   padding-bottom: 80px; }
@@ -2919,6 +2933,9 @@ h6 {
 
 .section-padding4 {
   padding: 130px 0 200px; }
+
+.section-padding-service {
+  padding: 130px 0 130px; }
 
 .section-top {
   margin-bottom: 80px; }
