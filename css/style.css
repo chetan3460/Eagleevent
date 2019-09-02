@@ -740,7 +740,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* 11. Hotline */
 .hotline-area {
   color: #ffffff;
-  background-image: url("../images/hotline-bg.jpg");
+  background-image: url("/images/banner-bg-2.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -1202,6 +1202,8 @@ body.mobile-nav-active #mobile-nav-toggle {
     -moz-transition: all 0.3s ease 0s;
     -o-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s; }
+    .service-area .single-service:hover {
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); }
 
 .blog_categorie_area {
   padding-top: 80px;
