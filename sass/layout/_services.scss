@@ -1,0 +1,50 @@
+/*=======Service section=====*/
+.service-area{
+    background: $box-color;
+    .single-service{
+        background: #fff;
+        border: 1px solid #eeeeee;
+        padding: 20px;
+        margin-bottom: 30px;
+        @include transition();
+        .image-block {
+            position: relative;
+            overflow: hidden;
+        }
+        .service-details{
+            padding: 25px 0px;
+            p {
+                margin-bottom: 0;
+            }
+            .blog-meta {
+                p {
+                    font-size: 13px;
+                    margin-right: 20px;
+                    a {
+                        color: #222;
+                    }
+                }
+                span {
+                    padding-right: 5px;
+                }
+            }
+            h5 {
+                margin: 15px 0px;
+                a {
+                    color: #222;
+                    font-size: 18px;
+                    font-weight: 700;
+                    text-transform: uppercase;
+                    @include transition();
+                    &:hover {
+                        color: $primary-color;
+                    }
+                }
+            }
+        }
+        &:hover {
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+    }
+
+}
